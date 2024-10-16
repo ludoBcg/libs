@@ -5,6 +5,10 @@ This repository contains dependencies for other C++ projects.
 
 ## Internal dependencies
 
+* QGL_toolkit: a simplified version of [LibQGLViewer](https://github.com/GillesDebunne/libQGLViewer) with a reduced set of essential features, re-implemented as a small header-only library.
+  
+  Requires Qt 6.7.0, using the [Qt open source](https://www.qt.io/download-open-source) installer for Windows
+
 * GLtools: minimalist toolkit containing classes for camera, trackball, logger ...*etc*, in a single header file
 
 ## External dependencies
@@ -27,6 +31,15 @@ For convenience, they are already included in the *third_party* directory. These
 * [Dear ImGui (Immediate-mode Graphical User Interface)](https://github.com/ocornut/imgui)
 
   Include sources in your project, with the appropriate backend for your configuration
+  
+* [OpenMesh](https://www.graphics.rwth-aachen.de/software/openmesh/)
+
+  Winged-edge data structure for mesh processing.
+  Built from [OpenMesh 10.0.0 sources](https://www.graphics.rwth-aachen.de/software/openmesh/download/). Use the provided Cmake script to generate a VS2022 solution (uncheck the *BUILD_APPS* option), and build the *OpenMeshCore* and *OpenMeshTools* projects to generate the corresponding lib files. 
+
+* [Eigen](https://gitlab.com/libeigen/eigen)
+
+  Linear algebra header-only library, includes matrices, vectors, numerical solvers, and related algorithms
 
 * [stb library](https://github.com/nothings/stb) for image loading:
 
