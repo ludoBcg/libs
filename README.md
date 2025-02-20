@@ -35,7 +35,7 @@ For convenience, they are already included in the *third_party* directory. These
 * [OpenMesh](https://www.graphics.rwth-aachen.de/software/openmesh/)
 
   Winged-edge data structure for mesh processing.
-  Built from [OpenMesh 10.0.0 sources](https://www.graphics.rwth-aachen.de/software/openmesh/download/). Use the provided Cmake script to generate a VS2022 solution (uncheck the *BUILD_APPS* option), and build the *OpenMeshCore* and *OpenMeshTools* projects to generate the corresponding lib files. 
+  Built from [OpenMesh 11.0.0 sources](https://www.graphics.rwth-aachen.de/software/openmesh/download/). Use the provided Cmake script to generate a VS2022 solution (uncheck the *BUILD_APPS* option), and build the *OpenMeshCore* and *OpenMeshTools* projects to generate the corresponding lib files. 
 
 * [Eigen](https://gitlab.com/libeigen/eigen)
 
